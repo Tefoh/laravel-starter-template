@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'B Koodak';
+    src: url('/fonts/BKoodakBold.eot'); /* IE9 Compat Modes */
+    src: url('/fonts/BKoodakBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('/fonts/BKoodakBold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('/fonts/BKoodakBold.ttf')  format('truetype'); /* Legacy iOS */
+}
+
+body {
+    font-family: "B Koodak";
+}
